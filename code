@@ -1,4 +1,5 @@
-#merge sort
+#merge sort     Time complexity : O(n log n) 
+# Sorts an array containing only 0s, 1s, and 2s using the Dutch National Flag Algorithm in O(N) time.
 def merge(arr):
     if len(arr)>1:
         l=arr[:len(arr)//2]
