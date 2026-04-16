@@ -7,7 +7,7 @@ def merge(arr):
         merge(l)
         merge(r)
         i=j=k=0
-        if i<len(l) and j<len(r):
+        while i<len(l) and j<len(r):
             if l[i]<r[j]:
                 arr[k]=l[i]
                 i+=1
